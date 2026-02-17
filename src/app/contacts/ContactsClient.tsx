@@ -146,12 +146,7 @@ export default function ContactsClient() {
                     >
                       8 (925) 201-82-86
                     </a>
-                    <a
-                      href="tel:+79104236762"
-                      className="block text-text-secondary hover:text-primary-brown"
-                    >
-                      8 (910) 423-67-62
-                    </a>
+                     
                   </div>
                 </div>
 
