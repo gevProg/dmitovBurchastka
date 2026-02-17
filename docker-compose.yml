@@ -1,0 +1,42 @@
+version: '3.8'
+
+services:
+  # MongoDB Database
+  mongodb:
+    image: mongo:6.0
+    container_name: moskva-plitka-mongo
+    restart: unless-stopped
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo-data:/data/db
+    environment:
+      MONGO_INITDB_DATABASE: moskva-plitka
+    networks:
+      - moskva-plitka-network
+
+  # Backend API (optional - uncomment to run backend in Docker too)
+  # backend:
+  #   build:
+  #     context: ./backend
+  #     dockerfile: Dockerfile
+  #   container_name: moskva-plitka-backend
+  #   restart: unless-stopped
+  #   ports:
+  #     - "5000:5000"
+  #   environment:
+  #     - MONGODB_URI=mongodb://mongodb:27017/moskva-plitka
+  #     - PORT=5000
+  #     - FRONTEND_URL=http://localhost:3000
+  #   depends_on:
+  #     - mongodb
+  #   networks:
+  #     - moskva-plitka-network
+
+volumes:
+  mongo-data:
+    driver: local
+
+networks:
+  moskva-plitka-network:
+    driver: bridge
