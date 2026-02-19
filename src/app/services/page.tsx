@@ -96,7 +96,7 @@ const services = [
             "Кованая мебель",
         ],
         price: "по запросу",
-        image: "/images/products/oblicovka-1.jpg",
+        image: "/images/portfolio/kovka3.jpg",
     },
 ];
 
