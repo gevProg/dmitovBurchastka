@@ -9,8 +9,8 @@ const products = [
         name: "Вибропрессованная плитка",
         description:
             "Повышенная прочность и выносливость к агрессивным веществам. Идеальна для парковок и дорог.",
-        priceFrom: 330,
-        image: "/images/products/vibropressovannaya-1.jpg",
+        priceFrom: 700,
+        image: "/images/products/brush_glav.webp",
         href: "/catalog/vibropressovannaya",
     },
     {
@@ -18,8 +18,8 @@ const products = [
         name: "Вибролитая плитка",
         description:
             "Разнообразные формы и яркие насыщенные цвета. Идеальна для садовых дорожек.",
-        priceFrom: 280,
-        image: "/images/products/vibrolitaya-1.jpg",
+        priceFrom: 400,
+        image: "/images/products/vibro_glav.jpg",
         href: "/catalog/vibrolitaya",
     },
     {
@@ -27,8 +27,8 @@ const products = [
         name: "Дорожные и садовые бордюры",
         description:
             "Придают тротуару законченный вид, задавая границы пешеходной зоны.",
-        priceFrom: 60,
-        image: "/images/products/bordyury-1.jpg",
+        priceFrom: 70,
+        image: "/images/products/bord_glav.jpg",
         href: "/catalog/bordyury",
     },
 ];
