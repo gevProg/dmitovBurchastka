@@ -10,7 +10,7 @@ const products = [
         description:
             "Повышенная прочность и выносливость к агрессивным веществам. Идеальна для парковок и дорог.",
         priceFrom: 700,
-        image: "/images/products/brush_glav.webp",
+        image: "/images/portfolio/brus_guyn.png",
         href: "/catalog/vibropressovannaya",
     },
     {
@@ -19,7 +19,7 @@ const products = [
         description:
             "Разнообразные формы и яркие насыщенные цвета. Идеальна для садовых дорожек.",
         priceFrom: 400,
-        image: "/images/products/vibro_glav.jpg",
+        image: "/images/portfolio/kaliforniya.jpg",
         href: "/catalog/vibrolitaya",
     },
     {
@@ -28,7 +28,7 @@ const products = [
         description:
             "Придают тротуару законченный вид, задавая границы пешеходной зоны.",
         priceFrom: 70,
-        image: "/images/products/bord_glav.jpg",
+        image: "/images/portfolio/дорожныйбордюр.jpg",
         href: "/catalog/bordyury",
     },
 ];

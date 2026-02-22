@@ -139,13 +139,6 @@ export default function MobileMenu({
                                                             className="overflow-hidden"
                                                         >
                                                             <div className="pl-4 pb-2 space-y-1">
-                                                                <Link
-                                                                    href={item.href}
-                                                                    onClick={onClose}
-                                                                    className="block text-sm font-medium text-text-secondary hover:text-primary-brown hover:bg-gray-50 transition-colors py-2 px-4 rounded-lg"
-                                                                >
-                                                                    Все товары
-                                                                </Link>
                                                                 {item.submenu.map((sub) => (
                                                                     <Link
                                                                         key={sub.name}
@@ -156,6 +149,28 @@ export default function MobileMenu({
                                                                         {sub.name}
                                                                     </Link>
                                                                 ))}
+                                                                <div className="border-t border-gray-200 mt-2 pt-2">
+                                                                    <Link
+                                                                        href="/catalog#calculator"
+                                                                        onClick={onClose}
+                                                                        className="flex items-center gap-2 text-sm font-medium text-primary-brown hover:bg-gray-50 transition-colors py-2 px-4 rounded-lg"
+                                                                    >
+                                                                        <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
+                                                                        </svg>
+                                                                        Калькулятор стоимости
+                                                                    </Link>
+                                                                    <Link
+                                                                        href="/catalog#price-info"
+                                                                        onClick={onClose}
+                                                                        className="flex items-center gap-2 text-sm font-medium text-primary-brown hover:bg-gray-50 transition-colors py-2 px-4 rounded-lg"
+                                                                    >
+                                                                        <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                                                        </svg>
+                                                                        От чего зависит цена?
+                                                                    </Link>
+                                                                </div>
                                                             </div>
                                                         </motion.div>
                                                     )}

@@ -195,7 +195,7 @@ export default function PricePageClient() {
             </section>
 
             {/* Interactive Price Tables */}
-            <section className="section-padding bg-bg-main" id="prices">
+            {/* <section className="section-padding bg-bg-main" id="prices">
                 <div className="container-custom">
                     <h2 className="text-center text-primary-brown mb-4">Прайс-лист на продукцию</h2>
                     <p className="text-center text-text-secondary mb-8 max-w-2xl mx-auto">
@@ -203,7 +203,6 @@ export default function PricePageClient() {
                         Переключайте вкладки для просмотра цен на разные виды продукции.
                     </p>
 
-                    {/* Tabs */}
                     <div className="flex flex-wrap justify-center gap-2 mb-8">
                         {tabs.map((tab) => (
                             <button
@@ -220,7 +219,6 @@ export default function PricePageClient() {
                         ))}
                     </div>
 
-                    {/* Color filter chips */}
                     <div className="flex flex-wrap justify-center gap-3 mb-6">
                         <button
                             onClick={() => setHighlightColor(null)}
@@ -249,7 +247,6 @@ export default function PricePageClient() {
                         ))}
                     </div>
 
-                    {/* Price table */}
                     <motion.div
                         key={activeTab}
                         initial={{ opacity: 0, y: 10 }}
@@ -329,7 +326,7 @@ export default function PricePageClient() {
                         </a>
                     </p>
                 </div>
-            </section>
+            </section> */}
 
             {/* Cost Calculator */}
             <section className="section-padding bg-white" id="calculator">
@@ -457,7 +454,7 @@ export default function PricePageClient() {
             </section>
 
             {/* Info block — SEO text */}
-            <section className="section-padding bg-bg-main">
+            <section className="section-padding bg-bg-main" id="price-info">
                 <div className="container-custom max-w-4xl">
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
                         <div className="relative h-64 md:h-80 rounded-xl overflow-hidden">

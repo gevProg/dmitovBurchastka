@@ -377,7 +377,7 @@ export default function ContactsClient() {
             Московская обл., Дмитровский р-н, д. Гришино
           </p>
           <a
-            href="https://yandex.ru/maps/-/CDuaYHWz"
+            href="https://yandex.com/maps/-/CPaxIZpi"
             target="_blank"
             rel="noopener noreferrer"
             className="text-primary-brown hover:underline text-sm mt-1 inline-block"
