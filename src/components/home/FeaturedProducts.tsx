@@ -10,7 +10,7 @@ const products = [
         description:
             "Повышенная прочность и выносливость к агрессивным веществам. Идеальна для парковок и дорог.",
         priceFrom: 330,
-        image: "/images/products/vibropressovannaya-1.jpg",
+        image: "/images/portfolio/2026-01-31_18-17-50.png",
         href: "/catalog/vibropressovannaya",
     },
     {
@@ -19,7 +19,7 @@ const products = [
         description:
             "Разнообразные формы и яркие насыщенные цвета. Идеальна для садовых дорожек.",
         priceFrom: 280,
-        image: "/images/products/vibrolitaya-1.jpg",
+        image: "/images/portfolio/kaliforniya.jpg",
         href: "/catalog/vibrolitaya",
     },
     {
@@ -28,7 +28,7 @@ const products = [
         description:
             "Придают тротуару законченный вид, задавая границы пешеходной зоны.",
         priceFrom: 60,
-        image: "/images/products/bordyury-1.jpg",
+        image: "/images/portfolio/дорожныйбордюр.jpg",
         href: "/catalog/bordyury",
     },
 ];

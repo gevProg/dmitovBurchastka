@@ -113,6 +113,12 @@ export const metadata: Metadata = {
     alternates: {
         canonical: "https://dmitrov-bruschatka.ru",
     },
+    icons: {
+        icon: [
+            { url: "/favicon.svg", type: "image/svg+xml" },
+            { url: "/favicon.ico", sizes: "any" },
+        ],
+    },
 };
 
 export default function RootLayout({
@@ -126,9 +132,6 @@ export default function RootLayout({
             className={`${montserrat.variable} ${openSans.variable}`}
         >
             <head>
-                <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-                <link rel="icon" href="/favicon.ico" sizes="any" />
-                <link rel="canonical" href="https://dmitrov-bruschatka.ru" />
                 <script
                     type="application/ld+json"
                     dangerouslySetInnerHTML={{

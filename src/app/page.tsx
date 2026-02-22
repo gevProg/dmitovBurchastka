@@ -35,14 +35,14 @@ export default function HomePage() {
             {/* Hero Section */}
             <HeroSlider />
 
-            {/* Benefits Section */}
-            <Benefits />
+            {/* Services Section */}
+            <ServicesPreview />
 
             {/* Products Section */}
             <FeaturedProducts />
+            {/* Benefits Section */}
+            <Benefits />
 
-            {/* Services Section */}
-            <ServicesPreview />
 
             {/* CTA Section */}
             <CTASection />

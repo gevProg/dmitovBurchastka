@@ -86,16 +86,16 @@ export default function Header() {
                                     onMouseEnter={() => item.submenu ? handleMouseEnter(item.name) : undefined}
                                     onMouseLeave={item.submenu ? handleMouseLeave : undefined}
                                 >
-                                    <Link
-                                        href={item.href}
-                                        className={`font-semibold transition-colors text-sm flex items-center gap-1 ${
-                                            isScrolled
-                                                ? "text-text-primary hover:text-primary-brown"
-                                                : "text-white hover:text-white/80"
-                                        }`}
-                                    >
-                                        {item.name}
-                                        {item.submenu && (
+                                    {item.submenu ? (
+                                        <button
+                                            onClick={() => setActiveDropdown(activeDropdown === item.name ? null : item.name)}
+                                            className={`font-semibold transition-colors text-sm flex items-center gap-1 ${
+                                                isScrolled
+                                                    ? "text-text-primary hover:text-primary-brown"
+                                                    : "text-white hover:text-white/80"
+                                            }`}
+                                        >
+                                            {item.name}
                                             <svg
                                                 className={`w-3 h-3 transition-transform ${activeDropdown === item.name ? 'rotate-180' : ''}`}
                                                 fill="none"
@@ -104,8 +104,19 @@ export default function Header() {
                                             >
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                                             </svg>
-                                        )}
-                                    </Link>
+                                        </button>
+                                    ) : (
+                                        <Link
+                                            href={item.href}
+                                            className={`font-semibold transition-colors text-sm flex items-center gap-1 ${
+                                                isScrolled
+                                                    ? "text-text-primary hover:text-primary-brown"
+                                                    : "text-white hover:text-white/80"
+                                            }`}
+                                        >
+                                            {item.name}
+                                        </Link>
+                                    )}
 
                                     {/* Dropdown */}
                                     {item.submenu && (
@@ -124,11 +135,31 @@ export default function Header() {
                                                         <Link
                                                             key={sub.name}
                                                             href={sub.href}
-                                                            className="block px-4 py-3 text-sm text-text-primary hover:bg-primary-brown/10 hover:text-primary-brown transition-colors font-medium border-b border-gray-50 last:border-0"
+                                                            className="block px-4 py-3 text-sm text-text-primary hover:bg-primary-brown/10 hover:text-primary-brown transition-colors font-medium border-b border-gray-50"
                                                         >
                                                             {sub.name}
                                                         </Link>
                                                     ))}
+                                                    <div className="border-t border-gray-200 mt-1 pt-1">
+                                                        <Link
+                                                            href="/catalog#calculator"
+                                                            className="flex items-center gap-2 px-4 py-3 text-sm text-primary-brown hover:bg-primary-brown/10 transition-colors font-medium"
+                                                        >
+                                                            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
+                                                            </svg>
+                                                            Калькулятор стоимости
+                                                        </Link>
+                                                        <Link
+                                                            href="/catalog#price-info"
+                                                            className="flex items-center gap-2 px-4 py-3 text-sm text-primary-brown hover:bg-primary-brown/10 transition-colors font-medium"
+                                                        >
+                                                            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                                            </svg>
+                                                            От чего зависит цена?
+                                                        </Link>
+                                                    </div>
                                                 </motion.div>
                                             )}
                                         </AnimatePresence>
