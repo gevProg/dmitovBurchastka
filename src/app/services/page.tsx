@@ -30,7 +30,7 @@ const services = [
             "Укладка плитки с рисунком",
             "Заполнение швов",
         ],
-        price: "от 600 ₽/м²",
+        price: "по запросу",
         image: "/images/portfolio/Ykaldka.jpg",
     },
     {
@@ -62,7 +62,7 @@ const services = [
             "Подготовка основания",
             "Уход за бетоном",
         ],
-        price: "от 3000 ₽/м³",
+        price: "по запросу",
         image: "/images/portfolio/betonnieRaboty.jpg",
 
     },
@@ -79,7 +79,7 @@ const services = [
             "Срезка старого асфальта",
             "Установка бордюров",
         ],
-        price: "от 800 ₽/м²",
+        price: "по запросу",
         image: "/images/portfolio/asfalt.jpg",
     },
     {
