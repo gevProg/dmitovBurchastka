@@ -150,7 +150,7 @@ export default function MobileMenu({
                                                                     </Link>
                                                                 ))}
                                                                 <div className="border-t border-gray-200 mt-2 pt-2">
-                                                                    <Link
+                                                                    {/* <Link
                                                                         href="/catalog#calculator"
                                                                         onClick={onClose}
                                                                         className="flex items-center gap-2 text-sm font-medium text-primary-brown hover:bg-gray-50 transition-colors py-2 px-4 rounded-lg"
@@ -159,7 +159,7 @@ export default function MobileMenu({
                                                                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
                                                                         </svg>
                                                                         Калькулятор стоимости
-                                                                    </Link>
+                                                                    </Link> */}
                                                                     <Link
                                                                         href="/catalog#price-info"
                                                                         onClick={onClose}

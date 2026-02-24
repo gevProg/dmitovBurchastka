@@ -15,7 +15,7 @@ const slides = [
         subtitle: "Собственное производство в Дмитровском районе",
         features: ["Гарантия качества", "Низкие цены", "Большой выбор"],
         bgColor: "from-black/60 via-black/40 to-transparent",
-        image: "/images/portfolio/plitka.jpg",
+        image: "/images/sliderImage/header_img1.jpg",
     },
     {
         id: 2,
@@ -23,7 +23,7 @@ const slides = [
         subtitle: "Профессиональная бригада с опытом более 10 лет",
         features: ["Выезд замерщика", "Расчет материала", "Выполнение в срок"],
         bgColor: "from-black/60 via-black/40 to-transparent",
-        image: "/images/portfolio/Ykaldka.jpg",
+        image: "/images/sliderImage/header_img2.jpg",
     },
     {
         id: 3,
@@ -31,7 +31,7 @@ const slides = [
         subtitle: "Дмитров, Яхрома, Дубна, Талдом и другие города",
         features: ["Собственный транспорт", "Быстрая доставка", "Разгрузка"],
         bgColor: "from-black/60 via-black/40 to-transparent",
-        image: "/images/MainImages/plitka2.jpg",
+        image: "/images/sliderImage/header_img3.jpg",
     },
 ];
 

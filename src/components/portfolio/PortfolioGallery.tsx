@@ -21,58 +21,54 @@ interface GalleryImage {
 
 const portfolioImages: GalleryImage[] = [
     {
-        src: "/images/portfolio/plitka.jpg",
-        alt: "Укладка тротуарной плитки в Дмитрове — готовый результат",
-        title: "Укладка тротуарной плитки",
-        description: "Благоустройство придомовой территории",
+        src: "/images/portfolioSlider/1.jpg",
+        alt: "Выполненная работа по укладке тротуарной плитки — 1",
+        title: "",
     },
     {
-        src: "/images/portfolio/Ykaldka.jpg",
-        alt: "Процесс укладки брусчатки — наша бригада за работой",
-        title: "Укладка брусчатки",
-        description: "Профессиональная работа бригады",
+        src: "/images/portfolioSlider/2.webp",
+        alt: "Выполненная работа по укладке тротуарной плитки — 2",
+        title: "",
     },
     {
-        src: "/images/portfolio/бордюр садовый.jpg",
-        alt: "Установка садового бордюра в Дмитровском районе",
-        title: "Установка садового бордюра",
-        description: "Оформление садовых дорожек",
+        src: "/images/portfolioSlider/3.JPEG",
+        alt: "Выполненная работа по укладке тротуарной плитки — 3",
+        title: "",
     },
     {
-        src: "/images/portfolio/asfalt.jpg",
-        alt: "Укладка асфальта — выполненные работы в Дмитрове",
-        title: "Укладка асфальта",
-        description: "Асфальтирование дорожек и площадок",
+        src: "/images/portfolioSlider/4.JPEG",
+        alt: "Выполненная работа по укладке тротуарной плитки — 4",
+        title: "",
     },
     {
-        src: "/images/portfolio/ozelenie.jpg",
-        alt: "Дачное озеленение и благоустройство территории",
-        title: "Дачное озеленение",
-        description: "Комплексное благоустройство участка",
+        src: "/images/portfolioSlider/5.JPEG",
+        alt: "Выполненная работа по укладке тротуарной плитки — 5",
+        title: "",
     },
     {
-        src: "/images/portfolio/дорожный бордюр.jpg",
-        alt: "Установка дорожного бордюра — наши работы",
-        title: "Дорожный бордюр",
-        description: "Профессиональная установка бордюров",
+        src: "/images/portfolioSlider/6.JPEG",
+        alt: "Выполненная работа по укладке тротуарной плитки — 6",
+        title: "",
     },
     {
-        src: "/images/portfolio/betonnieRaboty.jpg",
-        alt: "Бетонные работы — фундамент и отмостка в Дмитрове",
-        title: "Бетонные работы",
-        description: "Заливка фундаментов и отмосток",
+        src: "/images/portfolioSlider/7.jpg",
+        alt: "Выполненная работа по укладке тротуарной плитки — 7",
+        title: "",
     },
     {
-        src: "/images/portfolio/б.jpg",
-        alt: "Укладка плитки — готовый проект в Дмитровском районе",
-        title: "Готовый проект",
-        description: "Благоустройство территории под ключ",
+        src: "/images/portfolioSlider/8.jpg",
+        alt: "Выполненная работа по укладке тротуарной плитки — 8",
+        title: "",
     },
     {
-        src: "/images/portfolio/44416727.jpg",
-        alt: "Благоустройство участка — выполненная работа",
-        title: "Благоустройство участка",
-        description: "Комплексный проект",
+        src: "/images/portfolioSlider/9.jpg",
+        alt: "Выполненная работа по укладке тротуарной плитки — 9",
+        title: "",
+    },
+    {
+        src: "/images/portfolioSlider/10.jpg",
+        alt: "Выполненная работа по укладке тротуарной плитки — 10",
+        title: "",
     },
 ];
 
@@ -126,18 +122,7 @@ export default function PortfolioGallery() {
                                         />
                                     </div>
                                 </div>
-                                {!isZoomed && (
-                                    <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-6 z-10">
-                                        <h3 className="text-white text-xl md:text-2xl font-bold mb-1">
-                                            {image.title}
-                                        </h3>
-                                        {image.description && (
-                                            <p className="text-white/90 text-sm md:text-base">
-                                                {image.description}
-                                            </p>
-                                        )}
-                                    </div>
-                                )}
+
                             </SwiperSlide>
                         ))}
 

@@ -364,7 +364,7 @@ export default function ContactsClient() {
       {/* Map */}
       <section className="h-[450px] bg-gray-200 relative" aria-label="Карта расположения">
         <iframe
-          src="https://yandex.ru/map-widget/v1/?um=constructor%3A0&amp;source=constructor&amp;ll=37.5289%2C56.2978&amp;z=14&amp;pt=37.5289%2C56.2978%2Cpm2rdm"
+          src="https://yandex.ru/map-widget/v1/?um=constructor%3A0&amp;source=constructor&amp;ll=37.664902%2C56.214745&amp;z=14&amp;pt=37.664902%2C56.214745%2Cpm2rdm"
           width="100%"
           height="100%"
           style={{ border: 0 }}
