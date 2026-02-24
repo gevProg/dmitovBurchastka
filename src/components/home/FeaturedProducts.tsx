@@ -19,7 +19,7 @@ const products = [
         description:
             "Разнообразные формы и яркие насыщенные цвета. Идеальна для садовых дорожек.",
         priceFrom: 400,
-        image: "/images/portfolio/kaliforniya.jpg",
+        image: "/images/products/vibro_glav.jpg",
         href: "/catalog/vibrolitaya",
     },
     {
@@ -28,7 +28,7 @@ const products = [
         description:
             "Придают тротуару законченный вид, задавая границы пешеходной зоны.",
         priceFrom: 70,
-        image: "/images/portfolio/дорожныйбордюр.jpg",
+        image: "/images/products/bordyur_glavniy.jpg",
         href: "/catalog/bordyury",
     },
 ];
