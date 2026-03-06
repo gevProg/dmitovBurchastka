@@ -119,7 +119,7 @@ export default function MobileMenu({
                                                     onClick={() => setExpandedItem(expandedItem === item.name ? null : item.name)}
                                                     className="w-full flex items-center justify-between text-lg font-semibold text-text-primary hover:text-primary-brown hover:bg-gray-50 transition-colors py-3 px-4 rounded-lg"
                                                 >
-                                                    <span>{item.name}</span>
+                                                    <Link href={item.href} onClick={onClose} className="flex-1 text-left">{item.name}</Link>
                                                     <svg
                                                         className={`w-4 h-4 transition-transform ${expandedItem === item.name ? 'rotate-180' : ''}`}
                                                         fill="none"

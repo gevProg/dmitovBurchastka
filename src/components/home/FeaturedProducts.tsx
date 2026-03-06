@@ -35,7 +35,7 @@ const products = [
 
 export default function FeaturedProducts() {
     return (
-        <section className="section-padding bg-bg-main">
+        <section id="products" className="section-padding bg-bg-main">
             <div className="container-custom">
                 <motion.div
                     initial={{ opacity: 0, y: 20 }}

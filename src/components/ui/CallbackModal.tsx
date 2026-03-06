@@ -29,10 +29,8 @@ export default function CallbackModal({ isOpen, onClose }: CallbackModalProps) {
     const onSubmit = async (data: FormData) => {
         setIsSubmitting(true);
         try {
-            // Send via WhatsApp
-            const message = `Заявка на обратный звонок:\nИмя: ${data.name}\nТелефон: ${data.phone}`;
-            const whatsappUrl = `https://wa.me/79295100361?text=${encodeURIComponent(message)}`;
-            window.open(whatsappUrl, '_blank');
+            // Send via VK
+            window.open('https://vk.me/id748335114', '_blank');
 
             setIsSuccess(true);
             reset();

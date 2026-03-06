@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect, useRef } from "react";
+import { useRouter } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
@@ -15,7 +16,7 @@ const productSubmenu = [
 
 const navigation = [
     { name: "Главная", href: "/" },
-    { name: "Наша продукция", href: "/catalog", submenu: productSubmenu },
+    { name: "Наша продукция", href: "/#products", submenu: productSubmenu },
     { name: "Услуги", href: "/services" },
     { name: "Портфолио", href: "/portfolio" },
     { name: "Отзывы", href: "/reviews" },
@@ -23,6 +24,7 @@ const navigation = [
 ];
 
 export default function Header() {
+    const router = useRouter();
     const [isScrolled, setIsScrolled] = useState(false);
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
     const [isCallbackOpen, setIsCallbackOpen] = useState(false);
@@ -88,7 +90,7 @@ export default function Header() {
                                 >
                                     {item.submenu ? (
                                         <button
-                                            onClick={() => setActiveDropdown(activeDropdown === item.name ? null : item.name)}
+                                            onClick={() => router.push(item.href)}
                                             className={`font-semibold transition-colors text-sm flex items-center gap-1 ${
                                                 isScrolled
                                                     ? "text-text-primary hover:text-primary-brown"

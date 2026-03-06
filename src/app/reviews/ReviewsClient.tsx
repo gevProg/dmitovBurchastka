@@ -84,10 +84,8 @@ export default function ReviewsClient() {
     const onSubmit = async (data: ReviewFormData) => {
         setIsSubmitting(true);
         try {
-            // Send review via WhatsApp
-            const message = `Новый отзыв:\nИмя: ${data.name}\nГород: ${data.location}\nОценка: ${'⭐'.repeat(selectedRating)}\nОтзыв: ${data.text}`;
-            const whatsappUrl = `https://wa.me/79295100361?text=${encodeURIComponent(message)}`;
-            window.open(whatsappUrl, '_blank');
+            // Send review via VK
+            window.open('https://vk.me/id748335114', '_blank');
 
             setIsSuccess(true);
             reset();

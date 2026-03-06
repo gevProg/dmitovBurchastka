@@ -25,10 +25,8 @@ export default function ContactsClient() {
   const onSubmit = async (data: ContactFormData) => {
     setIsSubmitting(true);
     try {
-      // Send via WhatsApp
-      const message = `Сообщение с сайта:\nИмя: ${data.name}\nТелефон: ${data.phone}\nСообщение: ${data.message}`;
-      const whatsappUrl = `https://wa.me/79295100361?text=${encodeURIComponent(message)}`;
-      window.open(whatsappUrl, '_blank');
+      // Send via VK
+      window.open('https://vk.me/id748335114', '_blank');
 
       setIsSuccess(true);
       reset();
@@ -377,7 +375,7 @@ export default function ContactsClient() {
             Московская обл., Дмитровский р-н, д. Гришино
           </p>
           <a
-            href="https://yandex.com/maps/-/CPaxIZpi"
+            href="https://yandex.ru/maps/?ll=37.664902%2C56.214745&z=14&pt=37.664902%2C56.214745%2Cpm2rdm"
             target="_blank"
             rel="noopener noreferrer"
             className="text-primary-brown hover:underline text-sm mt-1 inline-block"
