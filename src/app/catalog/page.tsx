@@ -22,14 +22,14 @@ export const metadata: Metadata = {
             "Каталог тротуарной плитки, бордюров и брусчатки. Калькулятор стоимости. От 280₽/м².",
     },
     alternates: {
-        canonical: "https://dmitrov-bruschatka.ru/catalog",
+        canonical: "https://moskva-plitka.com/catalog",
     },
 };
 
 export default function CatalogPage() {
     const breadcrumbs = [
-        { name: "Главная", url: "https://dmitrov-bruschatka.ru" },
-        { name: "Наша продукция", url: "https://dmitrov-bruschatka.ru/catalog" },
+        { name: "Главная", url: "https://moskva-plitka.com" },
+        { name: "Наша продукция", url: "https://moskva-plitka.com/catalog" },
     ];
 
     return (

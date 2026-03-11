@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
     title: "Политика конфиденциальности — Дмитров Брусчатка",
     description:
-        "Политика конфиденциальности и обработки персональных данных сайта dmitrov-bruschatka.ru в соответствии с Федеральным законом №152-ФЗ «О персональных данных».",
+        "Политика конфиденциальности и обработки персональных данных сайта moskva-plitka.com в соответствии с Федеральным законом №152-ФЗ «О персональных данных».",
     robots: { index: true, follow: true },
 };
 
@@ -40,7 +40,7 @@ export default function PrivacyPolicyPage() {
                         <p>
                             Настоящая Политика конфиденциальности (далее — «Политика») определяет
                             порядок обработки и защиты персональных данных пользователей сайта{" "}
-                            <strong>dmitrov-bruschatka.ru</strong> (далее — «Сайт»), принадлежащего{" "}
+                            <strong>moskva-plitka.com</strong> (далее — «Сайт»), принадлежащего{" "}
                             <strong>ИП «Дмитров Брусчатка»</strong> (далее — «Оператор»).
                         </p>
                         <p>
@@ -74,7 +74,7 @@ export default function PrivacyPolicyPage() {
                             </li>
                             <li>
                                 <strong>Сайт:</strong>{" "}
-                                <a href="https://dmitrov-bruschatka.ru">dmitrov-bruschatka.ru</a>
+                                <a href="https://moskva-plitka.com">moskva-plitka.com</a>
                             </li>
                         </ul>
                     </section>

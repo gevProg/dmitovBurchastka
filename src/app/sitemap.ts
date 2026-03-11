@@ -2,7 +2,7 @@ import { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
     const baseUrl =
-        process.env.NEXT_PUBLIC_SITE_URL || "https://dmitrov-bruschatka.ru";
+        process.env.NEXT_PUBLIC_SITE_URL || "https://moskva-plitka.com";
 
     const currentDate = new Date().toISOString();
 

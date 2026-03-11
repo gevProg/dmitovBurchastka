@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     type: 'website',
   },
   alternates: {
-    canonical: 'https://dmitrov-bruschatka.ru/reviews',
+    canonical: 'https://moskva-plitka.com/reviews',
   },
 };
 
@@ -37,8 +37,8 @@ const aggregateRatingSchema = {
 };
 
 const breadcrumbs = [
-  { name: 'Главная', url: 'https://dmitrov-bruschatka.ru' },
-  { name: 'Отзывы', url: 'https://dmitrov-bruschatka.ru/reviews' },
+  { name: 'Главная', url: 'https://moskva-plitka.com' },
+  { name: 'Отзывы', url: 'https://moskva-plitka.com/reviews' },
 ];
 
 export default function ReviewsPage() {

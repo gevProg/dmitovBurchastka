@@ -129,12 +129,12 @@ export default function HeroSlider() {
                                     transition={{ delay: 0.8 }}
                                     className="flex flex-wrap gap-4"
                                 >
-                                    <Link
-                                        href="/catalog"
+                                    <button
+                                        onClick={() => document.getElementById('products')?.scrollIntoView({ behavior: 'smooth' })}
                                         className="bg-primary-brown hover:bg-primary-brown-dark text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 hover:shadow-lg"
                                     >
                                         Наша продукция
-                                    </Link>
+                                    </button>
                                     <Link
                                         href="/contacts"
                                         className="bg-white text-primary-brown px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 hover:bg-gray-100"

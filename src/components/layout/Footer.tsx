@@ -95,6 +95,21 @@ export default function Footer() {
                                 </svg>
                                 <span>plitkadmitrov73@mail.ru</span>
                             </a>
+                            <a
+                                href="https://vk.com/club236531267"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="flex items-center space-x-2 text-white hover:text-white/80 transition-colors"
+                            >
+                                <svg
+                                    className="w-5 h-5"
+                                    fill="currentColor"
+                                    viewBox="0 0 24 24"
+                                >
+                                    <path d="M21.579 6.855c.14-.465 0-.806-.666-.806h-2.199c-.56 0-.817.295-.957.621 0 0-1.119 2.719-2.703 4.482-.513.513-.745.675-1.024.675-.14 0-.341-.162-.341-.627V6.855c0-.559-.163-.806-.626-.806H9.642c-.348 0-.558.258-.558.504 0 .528.79.651.871 2.138v3.228c0 .71-.129.838-.407.838-.745 0-2.557-2.731-3.633-5.858-.21-.607-.422-.853-.984-.853H2.732c-.627 0-.752.295-.752.621 0 .582.745 3.462 3.463 7.277 1.812 2.603 4.363 4.013 6.687 4.013 1.393 0 1.565-.313 1.565-.853v-1.966c0-.626.133-.751.574-.751.326 0 .885.163 2.189 1.42C17.807 18.539 18.05 19 18.864 19h2.199c.626 0 .939-.313.759-.931-.198-.615-.91-1.51-1.854-2.569-.513-.605-1.282-1.257-1.515-1.583-.326-.42-.233-.605 0-.977 0 0 2.671-3.765 2.951-5.042z" />
+                                </svg>
+                                <span>ВКонтакте</span>
+                            </a>
                         </div>
                     </div>
 
@@ -175,7 +190,7 @@ export default function Footer() {
                         </div>
                         <div className="flex flex-col md:flex-row justify-between items-start md:items-center space-y-2 md:space-y-0">
                             <p className="text-white/70 text-sm">
-                                © {new Date().getFullYear()} dmitrov-bruschatka.ru —
+                                © {new Date().getFullYear()} moskva-plitka.com —
                                 Тротуарная плитка и брусчатка в Дмитрове
                             </p>
                             <p className="text-white/70 text-sm">

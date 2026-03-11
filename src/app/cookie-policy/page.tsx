@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
     title: "Политика использования файлов cookie — Дмитров Брусчатка",
     description:
-        "Политика использования файлов cookie на сайте dmitrov-bruschatka.ru. Какие cookie мы используем и для чего.",
+        "Политика использования файлов cookie на сайте moskva-plitka.com. Какие cookie мы используем и для чего.",
     robots: { index: true, follow: true },
 };
 
@@ -40,7 +40,7 @@ export default function CookiePolicyPage() {
                         <p>
                             Файлы cookie — это небольшие текстовые файлы, которые сохраняются
                             на вашем устройстве (компьютере, планшете или смартфоне) при посещении
-                            сайта <strong>dmitrov-bruschatka.ru</strong> (далее — «Сайт»). Файлы
+                            сайта <strong>moskva-plitka.com</strong> (далее — «Сайт»). Файлы
                             cookie позволяют Сайту «запоминать» ваши действия и предпочтения
                             в течение определённого времени.
                         </p>

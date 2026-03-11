@@ -94,8 +94,8 @@ const projects = [
 
 export default function PortfolioPage() {
     const breadcrumbs = [
-        { name: "Главная", url: "https://dmitrov-bruschatka.ru" },
-        { name: "Портфолио", url: "https://dmitrov-bruschatka.ru/portfolio" },
+        { name: "Главная", url: "https://moskva-plitka.com" },
+        { name: "Портфолио", url: "https://moskva-plitka.com/portfolio" },
     ];
 
     return (

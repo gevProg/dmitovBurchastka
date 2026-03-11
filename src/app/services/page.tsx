@@ -12,7 +12,7 @@ export const metadata: Metadata = {
             "Профессиональная укладка плитки, озеленение, бетонные работы.",
     },
     alternates: {
-        canonical: "https://dmitrov-bruschatka.ru/services",
+        canonical: "https://moskva-plitka.com/services",
     },
 };
 
@@ -102,8 +102,8 @@ const services = [
 
 export default function ServicesPage() {
     const breadcrumbs = [
-        { name: "Главная", url: "https://dmitrov-bruschatka.ru" },
-        { name: "Услуги", url: "https://dmitrov-bruschatka.ru/services" },
+        { name: "Главная", url: "https://moskva-plitka.com" },
+        { name: "Услуги", url: "https://moskva-plitka.com/services" },
     ];
 
     return (

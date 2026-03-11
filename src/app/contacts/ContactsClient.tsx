@@ -26,7 +26,7 @@ export default function ContactsClient() {
     setIsSubmitting(true);
     try {
       // Send via VK
-      window.open('https://vk.me/id748335114', '_blank');
+      window.open('https://vk.me/club236531267', '_blank');
 
       setIsSuccess(true);
       reset();

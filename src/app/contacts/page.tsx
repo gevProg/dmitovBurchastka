@@ -19,13 +19,13 @@ export const metadata: Metadata = {
     type: 'website',
   },
   alternates: {
-    canonical: 'https://dmitrov-bruschatka.ru/contacts',
+    canonical: 'https://moskva-plitka.com/contacts',
   },
 };
 
 const breadcrumbs = [
-  { name: 'Главная', url: 'https://dmitrov-bruschatka.ru' },
-  { name: 'Контакты', url: 'https://dmitrov-bruschatka.ru/contacts' },
+  { name: 'Главная', url: 'https://moskva-plitka.com' },
+  { name: 'Контакты', url: 'https://moskva-plitka.com/contacts' },
 ];
 
 export default function ContactsPage() {

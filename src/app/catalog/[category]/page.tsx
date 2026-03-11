@@ -35,7 +35,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
             description: category.description,
         },
         alternates: {
-            canonical: `https://dmitrov-bruschatka.ru/catalog/${resolvedParams.category}`,
+            canonical: `https://moskva-plitka.com/catalog/${resolvedParams.category}`,
         },
     };
 }
@@ -51,10 +51,10 @@ export default async function CategoryPage({ params }: Props) {
     const products = getProductsByCategory(resolvedParams.category);
 
     const breadcrumbs = [
-        { name: "Главная", url: "https://dmitrov-bruschatka.ru" },
+        { name: "Главная", url: "https://moskva-plitka.com" },
         {
             name: category.name,
-            url: `https://dmitrov-bruschatka.ru/catalog/${category.slug}`,
+            url: `https://moskva-plitka.com/catalog/${category.slug}`,
         },
     ];
 

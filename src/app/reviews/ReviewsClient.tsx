@@ -85,7 +85,7 @@ export default function ReviewsClient() {
         setIsSubmitting(true);
         try {
             // Send review via VK
-            window.open('https://vk.me/id748335114', '_blank');
+            window.open('https://vk.me/club236531267', '_blank');
 
             setIsSuccess(true);
             reset();

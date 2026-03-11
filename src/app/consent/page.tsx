@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
     title: "Согласие на обработку персональных данных — Дмитров Брусчатка",
     description:
-        "Согласие на обработку персональных данных в соответствии с Федеральным законом №152-ФЗ «О персональных данных». Сайт dmitrov-bruschatka.ru.",
+        "Согласие на обработку персональных данных в соответствии с Федеральным законом №152-ФЗ «О персональных данных». Сайт moskva-plitka.com.",
     robots: { index: true, follow: true },
 };
 
@@ -43,7 +43,7 @@ export default function ConsentPage() {
                             <strong>ИП «Дмитров Брусчатка»</strong> (далее — «Оператор»),
                             расположенному по адресу: Московская обл., Дмитровский р-н, д. Гришино,
                             на обработку моих персональных данных, указанных при заполнении
-                            форм на сайте <strong>dmitrov-bruschatka.ru</strong>.
+                            форм на сайте <strong>moskva-plitka.com</strong>.
                         </p>
                     </section>
 
@@ -189,7 +189,7 @@ export default function ConsentPage() {
 
                     <section className="mb-8 bg-gray-50 p-6 rounded-lg border">
                         <p className="text-sm text-gray-600">
-                            Отправляя свои данные через формы на сайте dmitrov-bruschatka.ru,
+                            Отправляя свои данные через формы на сайте moskva-plitka.com,
                             вы подтверждаете, что ознакомились с настоящим Согласием и{" "}
                             <Link
                                 href="/privacy-policy"

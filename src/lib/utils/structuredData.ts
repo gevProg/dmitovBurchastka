@@ -2,8 +2,8 @@ export const organizationSchema = {
     "@context": "https://schema.org",
     "@type": "Organization",
     name: "Дмитров Брусчатка",
-    url: "https://dmitrov-bruschatka.ru",
-    logo: "https://dmitrov-bruschatka.ru/images/logo.svg",
+    url: "https://moskva-plitka.com",
+    logo: "https://moskva-plitka.com/images/logo.svg",
     description:
         "Производство, продажа и укладка тротуарной плитки и брусчатки в Дмитрове и Дмитровском районе. Укладка тротуарной плитки в Яхроме, Гришино, Лавровках, Подосинках.",
     address: {
@@ -30,7 +30,7 @@ export const organizationSchema = {
         "Лавровки",
         "Подосинки",
     ],
-    sameAs: [],
+    sameAs: ["https://vk.com/club236531267"],
 };
 
 export const productSchema = (product: {
@@ -49,7 +49,7 @@ export const productSchema = (product: {
     sku: product.sku,
     offers: {
         "@type": "Offer",
-        url: `https://dmitrov-bruschatka.ru/catalog/${product.slug}`,
+        url: `https://moskva-plitka.com/catalog/${product.slug}`,
         priceCurrency: "RUB",
         price: product.price,
         priceValidUntil: new Date(Date.now() + 30 * 24 * 60 * 60 * 1000)
@@ -79,9 +79,9 @@ export const breadcrumbSchema = (
 export const localBusinessSchema = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    "@id": "https://dmitrov-bruschatka.ru",
+    "@id": "https://moskva-plitka.com",
     name: "Дмитров Брусчатка",
-    image: "https://dmitrov-bruschatka.ru/images/logo.svg",
+    image: "https://moskva-plitka.com/images/logo.svg",
     telephone: "+7 (929) 510-03-61",
     email: "plitkadmitrov73@mail.ru",
     address: {
@@ -121,7 +121,7 @@ export const serviceSchema = {
     provider: {
         "@type": "Organization",
         name: "Дмитров Брусчатка",
-        url: "https://dmitrov-bruschatka.ru",
+        url: "https://moskva-plitka.com",
     },
     areaServed: [
         {

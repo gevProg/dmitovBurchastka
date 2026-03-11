@@ -5,7 +5,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { motion, useInView } from 'framer-motion';
 
-/* ───────────── Price data from dmitrov-bruschatka.ru ───────────── */
+/* ───────────── Price data from moskva-plitka.com ───────────── */
 const vibrolitColors = ['Серый', 'Красный', 'Коричневый', 'Жёлтый', 'Зелёный', 'Чёрный', 'Синий'] as const;
 const vibropressColors = ['Серый', 'Чёрный', 'Коричневый', 'Красный', 'Зелёный', 'Синий'] as const;
 

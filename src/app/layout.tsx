@@ -22,7 +22,7 @@ const openSans = Open_Sans({
 });
 
 export const metadata: Metadata = {
-    metadataBase: new URL("https://dmitrov-bruschatka.ru"),
+    metadataBase: new URL("https://moskva-plitka.com"),
     title: {
         default:
             "Тротуарная плитка в Дмитрове – Продажа и укладка брусчатки | Дмитров Брусчатка",
@@ -81,7 +81,7 @@ export const metadata: Metadata = {
     openGraph: {
         type: "website",
         locale: "ru_RU",
-        url: "https://dmitrov-bruschatka.ru",
+        url: "https://moskva-plitka.com",
         siteName: "Дмитров Брусчатка",
         title: "Тротуарная плитка в Дмитрове – Продажа и укладка брусчатки",
         description:
@@ -107,17 +107,27 @@ export const metadata: Metadata = {
         },
     },
     verification: {
-        google: "your-google-verification-code",
+        google: "googlece93b121594e024f",
         yandex: "your-yandex-verification-code",
     },
     alternates: {
-        canonical: "https://dmitrov-bruschatka.ru",
+        canonical: "https://moskva-plitka.com",
     },
     icons: {
         icon: [
+            { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+            { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+            { url: "/favicon-48x48.png", sizes: "48x48", type: "image/png" },
+            { url: "/favicon-96x96.png", sizes: "96x96", type: "image/png" },
+            { url: "/favicon-192x192.png", sizes: "192x192", type: "image/png" },
+            { url: "/favicon-512x512.png", sizes: "512x512", type: "image/png" },
             { url: "/favicon.svg", type: "image/svg+xml" },
             { url: "/favicon.ico", sizes: "any" },
         ],
+        apple: [
+            { url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" },
+        ],
+        shortcut: "/favicon-32x32.png",
     },
 };
 

@@ -66,6 +66,34 @@ export default function SEOContent() {
                         </li>
                     </ul>
 
+                    <h3 className="text-primary-olive">
+                        Укладка тротуарной плитки по Дмитровскому району
+                    </h3>
+
+                    <p className="text-text-primary leading-relaxed">
+                        Выполняем <strong>укладку тротуарной плитки в Яхроме</strong>,{" "}
+                        <strong>Гришино</strong>, <strong>Новом Гришино</strong>,{" "}
+                        <strong>Лавровках</strong> и <strong>Подосинках</strong>. Укладка
+                        производится на песчано-гравийное или бетонное основание —
+                        в зависимости от нагрузки и типа объекта. Мы берёмся за любые
+                        задачи: от небольших садовых дорожек на даче до масштабных
+                        парковок и въездных групп.
+                    </p>
+
+                    <h3 className="text-primary-olive">
+                        Дополнительные услуги и материалы
+                    </h3>
+
+                    <p className="text-text-primary leading-relaxed">
+                        Помимо плитки, предлагаем{" "}
+                        <strong>дорожные и садовые бордюры (поребрики)</strong>,{" "}
+                        <strong>водоотводные лотки</strong>,{" "}
+                        <strong>геотекстиль</strong>, <strong>песок и щебень с доставкой</strong>{" "}
+                        по Дмитрову и Дмитровскому району. Также выполняем{" "}
+                        <strong>ремонт тротуарной плитки</strong>, демонтаж старого
+                        покрытия и <strong>устройство отмостки фундамента плиткой</strong>.
+                    </p>
+
                     
 
                     <div className="bg-white p-6 rounded-xl shadow-md mt-8">
