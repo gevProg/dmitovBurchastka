@@ -13,7 +13,7 @@ export default function SEOContent() {
                     className="prose prose-lg max-w-none"
                 >
                     <h2 className="text-primary-brown text-center mb-8">
-                        Тротуарная плитка и брусчатка в Дмитрове и Дмитровском районе
+                        Тротуарная плитка в Дмитрове и Дмитровском районе
                     </h2>
 
                     <p className="text-text-primary leading-relaxed">
@@ -35,7 +35,7 @@ export default function SEOContent() {
                         современном оборудовании. Благодаря собственному
                         производству можем предложить{" "}
                         <strong>низкие цены</strong> от{" "}
-                        <strong>280 рублей за квадратный метр</strong>. Укладка тротуарной
+                        <strong>400 рублей за квадратный метр</strong>. Укладка тротуарной
                         плитки под ключ в Дмитрове и Дмитровском районе — наша специализация.
                     </p>
 
@@ -71,7 +71,7 @@ export default function SEOContent() {
                     </h3>
 
                     <p className="text-text-primary leading-relaxed">
-                        Выполняем <strong>укладку тротуарной плитки в Яхроме</strong>,{" "}
+                        Выполняем <strong>укладку тротуарной плитки в Москве, Московской области, Дмитрове, Дмитровском районе, Яхроме, Икше, Ассаурово, Никулно, Хорьяково, Беклемишево, Андрейково</strong>,{" "}
                         <strong>Гришино</strong>, <strong>Новом Гришино</strong>,{" "}
                         <strong>Лавровках</strong> и <strong>Подосинках</strong>. Укладка
                         производится на песчано-гравийное или бетонное основание —
